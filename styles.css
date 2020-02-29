@@ -1,3 +1,25 @@
 p {
     color: red;
-  }
+}
+
+.basket {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    height: 70px;
+    width: 50px;
+    border: 10px solid black;
+}
+
+#basketImage {
+    position: relative;
+    bottom: 50px;
+    right: 124px;
+    z-index: 1;
+}
+
+#ballImage {
+    position: relative;
+    height: 90px;
+    z-index: 2;
+}

@@ -1,10 +1,23 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <title>Basketball game</title>
-    </head>
-    <body>
-        <p id="timer">4</p>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Basketball game</title>
+</head>
+
+<body>
+    <p id="timer">4</p>
+    <div class="images">
+        <div class="ballWrapper">
+            <div id="ball">
+                <img id="ballImage" src="images/basketball.jpg" ondragstart="dragStart(event)">
+            </div>
+        </div>
+        <div class="basket" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <!-- <img id="basketImage" src="images/basket.png"> -->
+        </div>
+    </div>
+</body>
+
 </html>
 <script type="text/javascript" src="script.js"></script>
